@@ -24,7 +24,7 @@ I will store some pwn writeups here for reference
 <summary><h3>Shellcode</h3></summary>
 <p>
 |   Challenge   | CTF | Description  |
-| ------------- | ------------- |
+| ------------- | ------------- | ----- |
 |  [baby-sandbox](https://hyggehalcyon.gitbook.io/page/ctfs/2024/amateursctf) | Amateurs CTF 2024 | Shellcode using `sysenter` to escape sandbox where syscall are forbidden |
 | ...   | ...  | ... |
 </p>
