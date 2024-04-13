@@ -23,7 +23,7 @@ I will store some pwn writeups here for reference
 <p>
   
 ***Amateurs CTF 2024*** --> [baby-sandbox](https://hyggehalcyon.gitbook.io/page/ctfs/2024/amateursctf)  
-> Shellcode using `sysenter` to escape sandbox where syscall are forbidden |
+> Shellcode using `sysenter` to escape sandbox where syscall are forbidden
 > 
 > Using register `xmm` to deal with deleted register
 
