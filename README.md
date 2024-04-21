@@ -15,7 +15,6 @@ I will store some pwn writeups here for reference
 <p>
 
 </p>
-
 </details>
 
 <details>
@@ -26,6 +25,13 @@ I will store some pwn writeups here for reference
 > Shellcode using `sysenter` to escape sandbox where syscall are forbidden
 > 
 > Using register `xmm` to deal with deleted register
+
+</p>
+</details>
+
+<details>
+<summary><h3>Different architecture</h3></summary>
+<p>
 
 </p>
 </details>
