@@ -33,5 +33,10 @@ I will store some pwn writeups here for reference
 <summary><h3>Different architecture</h3></summary>
 <p>
 
+***DownUnder CTF 2024*** --> [pac-shell](https://github.com/DownUnderCTF/Challenges_2024_Public/tree/main/pwn/pac-shell)
+> An arm64-bin challenge, which allow us to read, write arbitrary address
+> 
+> Use arm-gadget to invoke call to `system(/bin/sh)`
+
 </p>
 </details>
