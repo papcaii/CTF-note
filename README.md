@@ -30,7 +30,7 @@ I will store some pwn writeups here for reference
 </details>
 
 <details>
-<summary><h3>Different architecture</h3></summary>
+<summary><h3>Linux Kernel</h3></summary>
 <p>
 
 ***DownUnder CTF 2024*** --> [faulty-kernel](https://github.com/DownUnderCTF/Challenges_2024_Public/tree/main/pwn/faulty-kernel)
