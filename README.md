@@ -7,7 +7,7 @@ I will store some pwn writeups here for reference
 i know sth new  
 
 #### TLS
-when a child thread is created, the TLS(Thread Local Storage) will be stored next to the new stack of the child thread like this
+when a child thread is created, the TLS(Thread Local Storage) will be stored next to the new stack of the child thread like this  
 ![image](https://github.com/user-attachments/assets/5d34f127-589c-4cca-ba3e-95e89b63313e)  
 this contains some useful information like master canary
 -> we can leak or overwrite this 
