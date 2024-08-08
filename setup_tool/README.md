@@ -21,6 +21,11 @@ sudo apt install gdb-multiarch
 aarch64-linux-gnu-gcc-10 -static hello.c -o hello
 ```
 
+### Runing ARM64 Binaries
+```bash
+qemu-aarch64 ./hello
+```
+
 ### Disassembling ARM64 Binaries
 ```bash
 aarch64-linux-gnu-objdump -D hello
