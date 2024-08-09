@@ -28,6 +28,10 @@ Usage during syscall/function call:
 
 - r29 and r30 are used as the frame register and link register (avoid)
 
+#### Instruction
+We can refer to some of these useful docs/posts:
+[Scott Wolchok](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
+
 ## Mitigation
 There are still some mitigations similar to `x86_64` like
 - RELRO
