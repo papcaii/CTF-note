@@ -1,10 +1,13 @@
 # CTF Note
 
 ## Description  
-I will store some pwn writeups here for reference
+I will store some knowledge here for reference
 
 ## Some tips  
-i know sth new  
+I know sth new  
+
+#### ARM
+This is a lot of things so I will give it a directory for it [ARM](ARM)
 
 #### TLS
 when a child thread is created, the TLS(Thread Local Storage) will be stored next to the new stack of the child thread like this  
