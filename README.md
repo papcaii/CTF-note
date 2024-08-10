@@ -9,6 +9,31 @@ I know sth new
 #### ARM
 This is a lot of things so I will give it a directory for it [ARM](ARM)
 
+### Leak libc  
+Some weird challs that dont give us libc, so we have to find it ourself, here is a short script that will do it: 
+
+```python
+if not 'libc' in locals():
+    try:
+        import requests
+        r = requests.post('https://libc.rip/api/find', json = {'symbols':{'puts':hex(puts)[-3:]}})
+        libc_url = r.json()[0]['download_url']
+        libc_file = libc_url.split('/')[-1:][0]
+        if not os.path.exists(libc_file):
+            log.info('getting: ' + libc_url)
+            r = requests.get(libc_url, allow_redirects=True)
+            open(libc_file,'wb').write(r.content)
+    except:
+        log.critical('get libc yourself!')
+        sys.exit(0)
+    libc = ELF(libc_file)
+
+libc.address = puts - libc.sym.puts
+log.info('libc.address: ' + hex(libc.address))
+```
+
+In above example, I test when I leak `puts` address
+
 #### TLS
 when a child thread is created, the TLS(Thread Local Storage) will be stored next to the new stack of the child thread like this  
 ![image](https://github.com/user-attachments/assets/5d34f127-589c-4cca-ba3e-95e89b63313e)  
