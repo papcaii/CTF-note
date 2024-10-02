@@ -18,3 +18,6 @@ For reminding, we know that the linux calling convention is
 ## Technique
 
 ### Abusing `printf` FSB to overwrite `printf` return address 
+
+#### References
+- [FCSC2022](https://github.com/voydstack/FCSC2022/tree/main/pwn/formatage)
