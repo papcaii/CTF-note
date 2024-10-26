@@ -2,7 +2,7 @@
 
 In this context I will work with `AArch64`(ARM64)  
 
-[!] About how to run and compile `AArch64` binary on `x86_64` machine you can refer to my qemu section in [Setup](https://github.com/papcaii/CTF-note/tree/main/setup_tool) dir 
+:bangbang: About how to run and compile `AArch64` binary on `x86_64` machine you can refer to my qemu section in [Setup](https://github.com/papcaii/CTF-note/tree/main/setup_tool) dir 
 
 ## Assembly
 
